@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Main from './Main';
-import ReactCountdownClock from 'react-countdown-clock';
+import ReactSlider from 'react-slider';
+import SliderParent from './SliderParent';
+
 
 let OPTIONS = { prefix: 'seconds elapsed!', delay: 100}
 
@@ -18,4 +20,5 @@ window.$ = $;
 //     document.getElementById("container")
 // );
 
-ReactDOM.render(<Main />, document.getElementById('root'));
+ReactDOM.render(<Main />, document.getElementById('container'));
+ReactDOM.render(<SliderParent />, document.getElementById('root'));
