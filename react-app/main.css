@@ -1,0 +1,13 @@
+/*body {
+  background-color: seashell;
+}*/
+
+.fan-image {
+  height:200px;
+  cursor: pointer;
+  border:solid thin black;
+}
+
+.selected {
+  background-color: grey;
+}
